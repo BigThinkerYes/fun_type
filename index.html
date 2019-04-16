@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Boogaloo|Permanent+Marker" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Boogaloo|Istok+Web|Permanent+Marker" rel="stylesheet">
+ 		<title>movement keyframes</title>
+		
+		<style>
+			/*------------slide in information----870 901 3253------*/
+			body{
+				background-color:#21263f;
+			}
+						.loading{
+				margin:150px auto;
+				margin-left: 430px;
+			}
+			.box{
+				width:500px;
+				height:90px;
+				border: 4px solid #37b360;
+				border-radius: 5px;
+				-webkit-animation: sa-rotateplane 10s infinite ease-in-out;
+				animation: sa-rotateplane 10s  infinite ease-in-out;
+			}
+			
+			
+			/*-----------*/
+			@keyframes sa-rotateplane{
+				0%{
+					transform:perspective(120px) rotateX(0deg) rotateY(0deg);
+					-webkit-transform:perspective(120px) rotateX(0deg) rotateY(0deg);
+				}
+				50%{
+					transform:perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+					-webkit-transform:perspective(120px) rotateX(-188.1deg) rotateY(0deg);
+				}
+				100%{
+					transform:perspective(120px) rotateX(-180deg) rotateY(0deg);
+					-webkit-transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
+				}
+			}
+			
+			@-webkit-keyframes sa-rotateplane{
+				0%{
+					-webkit-transform:perspective(120px);
+				}
+				50%{
+					-webkit-transform:perspective(120px) rotateY(180deg);
+				}
+					100%{
+						-webkit-transform:perspective(120px) rotateY(180deg) rotateX(180deg);
+					}
+					
+				}
+			/*--------------------*/
+
+	
+			/*--------------------*/
+			.banner h1{
+				margin-top:150px;
+			}
+			.banner h5{
+				margin-top:140px;
+			}
+			/*----------bounce and style----------------*/
+			.ud_1{left:0;}
+			.ud_2{left:55px;}
+			.ud_3{left:95px;}/*increased by 40*/
+			.ud_3a{left:140px;}/*increased by 45*/
+			.ud_4{left:200px;}
+			.ud_5{left:241px;}
+			.ud_6{left:275px;}
+			.ud_7{left:312px;}
+			.ud_8{left:327px;}
+			.ud_9{left:368px;}
+			.ud_10{left:405px;}/*increased by 40*/
+
+			.ud_1{
+				-webkit-animation:bounce1 3s infinite linear;
+				-ms-animation:bounce1 3s infinite linear;
+				-moz-animation:bounce1 3s infinite linear;
+				-o-animation:bounce1 3s infinite linear;
+			}
+			.ud_2{
+				-webkit-animation:bounce2 3s infinite linear;
+				-ms-animation:bounce2 3s infinite linear; 
+				-moz-animation:bounce2 3s infinite linear;
+				-o-animation:bounce2 3s infinite linear;
+			}
+			.ud_3{
+				-webkit-animation:bounce3 3s infinite linear;
+				-ms-animation:bounce3 3s infinite linear;
+				-moz-animation:bounce3 3s infinite linear;
+				-o-animation:bounce3 3s infinite linear;
+			}
+			.ud_4{
+				-webkit-animation:bounce4 3s infinite linear;
+				-ms-animation:bounce4 3s infinite linear;
+				-moz-animation:bounce4 3s infinite linear;
+				-o-animation:bounce4 3s infinite linear;
+			}
+			.ud_5{
+				-webkit-animation:bounce5 3s infinite linear;
+				-ms-animation:bounce5 3s infinite linear;
+				-moz-animation:bounce5 3s infinite linear;
+				-o-animation:bounce5 3s infinite linear;
+			}
+			.ud_6{
+				-webkit-animation:bounce6 3s infinite linear;
+				-ms-animation:bounce6 3s infinite linear;
+				-moz-animation:bounce6 3s infinite linear;
+				-o-animation:bounce6 3s infinite linear;
+			}
+			.ud_7{
+				-webkit-animation:bounce7 3s infinite linear;
+				-ms-animation:bounce7 3s infinite linear;
+				-moz-animation:bounce7 3s infinite linear;
+				-o-animation:bounce7 3s infinite linear;
+			}
+			.ud_8{
+				-webkit-animation:bounce8 3s infinite linear;
+				-ms-animation:bounce8 3s infinite linear;
+				-moz-animation:bounce8 3s infinite linear;
+				-o-animation:bounce8 3s infinite linear;
+			}
+			.ud_9{
+				-webkit-animation:bounce9 3s infinite linear;
+				-ms-animation:bounce9 3s infinite linear;
+				-moz-animation:bounce9 3s infinite linear;
+				-o-animation:bounce9 3s infinite linear;
+			}
+			.ud_10{
+				-webkit-animation:bounce10 3s infinite linear;
+				-ms-animation:bounce10 3s infinite linear;
+				-moz-animation:bounce10 3s infinite linear;
+				-o-animation:bounce10 3s infinite linear;
+			}
+
+			@keyframes bounce1{
+				0%{ bottom:0; color:#fa8640;}
+				5%{ bottom:15px; }
+				10%{ bottom:0; }
+			}
+			@keyframes bounce2{
+				5%{ bottom:0; color:#fa8640;}
+				10%{ bottom:15px; font-size:83px; }
+				15%{ bottom:0; }
+			}
+			@keyframes bounce3{
+				10%{ bottom:0; color:#fa8640;}
+				15%{ bottom:15px; }
+				20%{ bottom:0; }
+			}
+			@keyframes bounce4{
+				15%{ bottom:0; color:#d540fa;}
+				20%{ bottom:15px; font-size:83px; }
+				25%{ bottom:0; }
+			}
+			@keyframes bounce5{
+				20%{ bottom:0; color:#d540fa;}
+				25%{ bottom:15px; }
+				30%{ bottom:0; }
+			}
+			@keyframes bounce6{
+				25%{ bottom:0; color:#d540fa;}
+				30%{ bottom:15px; font-size:83px; }
+				35%{ bottom:0; }
+			}
+			@keyframes bounce7{
+				30%{ bottom:0; color:#d540fa;}
+				35%{ bottom:15px; }
+				40%{ bottom:0; }
+			}
+			@keyframes bounce8{
+				35%{ bottom:0; color:#d540fa;}
+				40%{ bottom:15px; font-size:83px; }
+				45%{ bottom:0; }
+			}
+			@keyframes bounce9{
+				40%{ bottom:0; color:#d540fa;}
+				45%{ bottom:15px; }
+				50%{ bottom:0; }
+			}
+			@keyframes bounce10{
+				45%{ bottom:0; color:#d540fa;}
+				50%{ bottom:15px; font-size:83px; }
+				55%{ bottom:0; }
+			}
+				
+			h1 {font-family:sans-serif;color:#046bd5;font-size:75px;position:absolute; top:14%;left:35%;}
+			h1 span{position:absolute; bottom:0;}
+			h5 {font-family:sans-serif;color:#c5c0c6;font-size:18px;position:absolute; top:17%;left:50%;}
+			.sizeColor{color:#fff; font-size:50px; margin-left:5%;}
+			.sizeColor3{color:#fff; font-size:20px; margin-left:13%;}
+			.sizeColor2{color:#fff; font-size:25px;font-family: 'Istok Web', sans-serif; }
+			.subscribe{color:#fff; background-color: #fa000c; padding:10px 30px; font-family: 'Istok Web', sans-serif; border-radius:5px; margin-left: 2px;}
+			.btnList{position:absolute; top:60%; left:; margin-left:24%; opacity:.9; width:900px;}
+			/*------------------------------------------*/
+			@media(max-width:768px){
+				.banner .ud_bounce{
+					margin-left: -150px !important;
+					font-size:4rem;
+				}
+		}
+		</style>
+	</head>
+	<body>
+
+					<div class="banner">
+							<h1>
+
+							<span class="ud_bounce ud_1">w</span>
+							<span class="ud_bounce ud_2">e</span>
+							<span class="ud_bounce ud_3">b</span>
+							<span class="ud_bounce ud_3a">{}</span>
+							<span class="ud_bounce ud_4">d</span>
+							<span class="ud_bounce ud_5">e</span>
+							<span class="ud_bounce ud_6">s</span>
+							<span class="ud_bounce ud_7">i</span>
+							<span class="ud_bounce ud_8">g</span>
+							<span class="ud_bounce ud_9">n</span>
+							<span class="ud_bounce ud_10">.</span>
+							</h1>
+
+							<h5>[ using CSS keyframes ]</h5>
+					</div>
+		<!-- <p class="btnList"><i class="fa fa-youtube sizeColor" aria-hidden="true">&nbsp;<span class="sizeColor2" >developerDecisions</span></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thumbs-o-up sizeColor3" aria-hidden="true"><span class="sizeColor2">(like)</span></i><span class="subscribe">Subscribe</span></p>
+		<div class="loading">
+			<div class="box">
+			
+			</div> -->
+		</div>
+	</body>
+</html>
